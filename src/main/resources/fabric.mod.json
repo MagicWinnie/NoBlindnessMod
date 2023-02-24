@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://github.com/MagicWinnie/NoBlindnessMod",
-    "sources": "https://github.com/MagicWinnie/NoBlindnessMod"
+    "sources": "https://github.com/MagicWinnie/NoBlindnessMod",
+    "issues": "https://github.com/MagicWinnie/NoBlindnessMod/issues"
   },
 
   "license": "CC0-1.0",
