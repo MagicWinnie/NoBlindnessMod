@@ -14,7 +14,7 @@
     "issues": "https://github.com/MagicWinnie/NoBlindnessMod/issues"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/magicwinnie_no_blindness/icon.png",
 
   "environment": "*",
