@@ -1,35 +1,37 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "magicwinnie_no_blindness",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "No Blindness Mod",
+  "description": "This mod removes the blindness effect from the player.",
   "authors": [
-    "Me!"
+    "MagicWinnie"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/MagicWinnie/NoBlindnessMod",
+    "sources": "https://github.com/MagicWinnie/NoBlindnessMod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/magicwinnie_no_blindness/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.magicwinnie.noblindness.NoBlindnessMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "magicwinnie_no_blindness.mixins.json"
   ],
+
+  "accessWidener" : "magicwinnie_no_blindness.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.14.14",
     "fabric-api": "*",
-    "minecraft": "~1.19.3",
+    "minecraft": "~1.19.2",
     "java": ">=17"
   },
   "suggests": {
